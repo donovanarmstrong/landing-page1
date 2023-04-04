@@ -1,0 +1,132 @@
+/* Body styles */
+//*body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f10e0e;
+    border-bottom: 1px solid #eee;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .menu__link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation styles */
+ //*old code nav {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  .menu__link {
+    display: block;
+    color: #111;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .menu__link:hover {
+    background-color: #ddd;
+  }
+  
+  
+  /* Section styles */
+  section {
+    align-items: center;
+    color: #a96666;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .landing__container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #310808;
+  }
+
+  .landing__container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e50505;
+  }
+  
+  .landing__container3 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3823a3;
+  }
+  .landing__container4 {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e50593;
+  }
+
+  nav  {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    background-color: blue;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  
+  section:nth-of-type(even) {
+    background-color: #f7
+
+    
+  
